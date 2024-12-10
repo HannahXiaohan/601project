@@ -1,0 +1,10 @@
+.bioContainer {
+  text-align: center;
+  padding: 1rem;
+}
+
+.bioImage {
+  border-radius: 50%;
+  width: 150px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,18 @@
+.resumeContainer {
+  text-align: center;
+  padding: 2rem;
+}
+
+.resumeContainer a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.resumeContainer a:hover {
+  background-color: #0056b3;
+}

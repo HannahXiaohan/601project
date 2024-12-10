@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+## Project Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a personal portfolio website built using React. The portfolio showcases professional achievements, academic projects, technical skills, and personal interests. It is designed to be responsive, interactive, and visually engaging.
 
-## Available Scripts
+### Features
 
-In the project directory, you can run:
+Dynamic Pages:
 
-### `npm start`
+Bio: A personal introduction with profile image and summary.
+Resume: Downloadable resume and an overview of professional experience and skills.
+Interests: A visual representation of hobbies and interests.
+Gallery: A grid of images showcasing creativity and accomplishments.
+Contact Form: A functional form for users to connect.
+Interactive Design:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+CSS Modules for modular and reusable styling.
+Hover effects and animations for user engagement.
+Performance Optimizations:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Lazy loading components using React.Suspense and React.lazy.
+Web vitals monitoring for improved performance metrics.
+Routing:
 
-### `npm test`
+Centralized navigation using react-router-dom.
+Testing:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ensures component reliability with Jest and React Testing Library.
 
-### `npm run build`
+### Tech Stack
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Frontend: React (v19.0.0), React Router (v7.0.2)
+Styling: CSS Modules and global styles
+Performance Monitoring: Web Vitals
+Testing: Jest and React Testing Library
+Build Tool: Create React App
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+cd ~/Desktop/xiaohan-jiang-portfolio
 
-### `npm run build` fails to minify
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### File Structure
+
+xiaohan-jiang-portfolio/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   └── manifest.json
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Bio.jsx
+│   │   ├── Resume.jsx
+│   │   ├── Gallery.jsx
+│   │   ├── Interests.jsx
+│   │   └── ContactForm.jsx
+│   ├── styles/
+│   │   ├── App.css
+│   │   ├── Bio.module.css
+│   │   ├── Resume.module.css
+│   │   ├── Gallery.module.css
+│   │   └── index.css
+│   ├── App.js
+│   ├── index.js
+│   ├── setupTests.js
+│   └── reportWebVitals.js
+├── package.json
+└── README.md
+
+
+## Future Enhancement
+
+Add backend API for dynamic content and form submissions.
+
+Integrate analytics to track user interactions.
+
+Add animations and transitions for enhanced user experience.
+
